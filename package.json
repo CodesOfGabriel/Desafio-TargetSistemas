@@ -1,0 +1,19 @@
+{
+  "name": "desafio-dev",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "comissoes": "tsx 01-comissoes.ts",
+    "estoque": "tsx 02-estoque.ts",
+    "juros": "tsx 03-juros.ts",
+    "verificar": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
